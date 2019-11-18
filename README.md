@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/extremegf/code-dup-detect/workflows/Rust/badge.svg)](https://github.com/extremegf/code-dup-detect/actions)
+
 This project aims to assist users practicing TDD.
 
 In the second step of TDD you are asked to remove duplication from your code.
