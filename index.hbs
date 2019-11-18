@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/styles/default.min.css">
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<style>
+.hl { background-color: lightsalmon; }
+</style>
+</head>
+
+<body>
+<pre>
+<code class="rust">
+{{~#each lines ~}}
+{{#if highlight ~}}
+<span class='hl'>{{line}}</span>
+{{else~}}
+{{line}}
+{{/if ~}}
+{{/each~}}
+</code>
+</pre>
+ </body>
+ </html>
